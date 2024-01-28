@@ -1,0 +1,128 @@
+\begin{thebibliography}{10}
+
+\bibitem{Wang1995}
+X~Wang and S~B Lambert.
+\newblock Local weight functions for semi-elliptical surface cracks in finite
+  thickness plates, 1995.
+
+\bibitem{Pommier1999}
+S~Pommier, C~Sakae, and Y~Murakami.
+\newblock An empirical stress intensity factor set of equations for a
+  semi-elliptical crack in a semi-infinite body subjected to a polynomial
+  stress distribution, 1999.
+
+\bibitem{Zhang2023}
+Xinyu Zhang, Tingting Zhao, Yifan Liu, Qingqing Chen, Zhiyong Wang, and Zhihua
+  Wang.
+\newblock A data-driven model for predicting the mixed-mode stress intensity
+  factors of a crack in composites.
+\newblock {\em Engineering Fracture Mechanics}, 288, 8 2023.
+
+\bibitem{Sobotka2022}
+J.~C. Sobotka and R.~C. McClung.
+\newblock Stress-intensity factors solutions for straight through cracks in
+  c-sections.
+\newblock {\em Engineering Fracture Mechanics}, 271, 8 2022.
+
+\bibitem{Keprate2017}
+Arvind Keprate, R.~M.Chandima Ratnayake, and Shankar Sankararaman.
+\newblock Comparison of various surrogate models to predict stress intensity
+  factor of a crack propagating in offshore piping.
+\newblock {\em Journal of Offshore Mechanics and Arctic Engineering}, 139, 12
+  2017.
+
+\bibitem{Xu2022}
+Tongge Xu, Shuiting Ding, Huimin Zhou, and Guo Li.
+\newblock Machine learning-based efficient stress intensity factor calculation
+  for aeroengine disk probabilistic risk assessment under polynomial stress
+  fields.
+\newblock {\em Fatigue and Fracture of Engineering Materials and Structures},
+  45:451--465, 2 2022.
+
+\bibitem{Seghier2020}
+Mohamed El Amine~Ben Seghier, Hermes Carvalho, Behrooz Keshtegar, José~A.F.O.
+  Correia, and Filippo Berto.
+\newblock Novel hybridized adaptive neuro-fuzzy inference system models based
+  particle swarm optimization and genetic algorithms for accurate prediction of
+  stress intensity factor.
+\newblock {\em Fatigue and Fracture of Engineering Materials and Structures},
+  43:2653--2667, 11 2020.
+
+\bibitem{RNeqnsbook}
+J.~C. Newman and I.~S. Raju.
+\newblock {\em Stress-intensity factor equations for cracks in
+  three-dimensional finite bodies}, volume~4.
+\newblock 1983.
+
+\bibitem{Randall2022}
+David~L. Randall, Tyler~S. Townsend, Jacob~D. Hochhalter, and Geoffrey~F.
+  Bomarito.
+\newblock Bingo: A customizable framework for symbolic regression with genetic
+  programming.
+\newblock pages 2282--2288. Association for Computing Machinery, Inc, 7 2022.
+
+\bibitem{nasgro}
+Southwest~Research Institute.
+\newblock Nasgro.
+
+\bibitem{afgrow}
+TODO.
+\newblock Todo.
+
+\bibitem{smartdt}
+TODO.
+\newblock Smart|dt.
+
+\bibitem{tada1985}
+Hiroshi Tada, Paul~C. Paris, and George~R. Irwin.
+\newblock {\em Stress Analysis of Cracks Handbook}.
+\newblock American Society of Mechanical Engineers (ASME), 3rd edition, 1985.
+
+\bibitem{brown1966}
+J.~E.~Srawley W.~F.~Brown.
+\newblock {\em Plane Strain Crack Toughness Testing of High Strength Metallic
+  Materials}.
+\newblock ASTM International, 1966.
+
+\bibitem{f3d}
+{Fracture Analysis Consultants, Inc}.
+\newblock Franc3d.
+
+\bibitem{Abaqus}
+{Dassault Syst{\`e}mes Simulia Corp}.
+\newblock Abaqus.
+
+\bibitem{Rice1968}
+J~R Rice.
+\newblock A path independent integral and the approximate analysis of strain
+  concentration by notches and cracks, 1968.
+
+\bibitem{Banks-Sills2005}
+Leslie Banks-Sills, Itai Hershkovitz, Paul~A. Wawrzynek, Rami Eliasi, and
+  Anthony~R. Ingraffea.
+\newblock Methods for calculating stress intensity factors in anisotropic
+  materials: Part i - z = 0 is a symmetric plane.
+\newblock {\em Engineering Fracture Mechanics}, 72:2328--2358, 10 2005.
+
+\bibitem{GPSR-comp}
+F.~O. de~Franca, M.~Virgolin, M.~Kommenda, M.~S. Majumder, M.~Cranmer,
+  G.~Espada, L.~Ingelse, A.~Fonseca, M.~Landajuela, B.~Petersen, R.~Glatt,
+  N.~Mundhenk, C.~S. Lee, J.~D. Hochhalter, D.~L. Randall, P.~Kamienny,
+  H.~Zhang, G.~Dick, A.~Simon, B.~Burlacu, Jaan Kasak, Meera Machado, Casper
+  Wilstrup, and W.~G.~La Cava.
+\newblock Interpretable symbolic regression for data science: Analysis of the
+  2022 competition.
+\newblock 4 2023.
+
+\bibitem{Schmidt2007}
+Michael Schmidt and Hod Lipson.
+\newblock {\em Comparison of Tree and Graph Encodings as a Function of Problem
+  Complexity}.
+\newblock Association for Computing Machinery, 2007.
+
+\bibitem{RNFEM}
+Isadore Newman and I.~S. Raju.
+\newblock Three dimensional finite-element analysis of finite-thickness
+  fracture specimens, 1977.
+
+\end{thebibliography}

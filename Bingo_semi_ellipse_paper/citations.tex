@@ -1,0 +1,31 @@
+
+A finite element calculation of stress intensity factors by a modified crack closure integral
+
+Machine learning‐based efficient stress intensity factor calculation for aeroengine disk probabilistic risk assessment under polynomial stress fields - Xu - 2022 - Fatigue & Fracture of Engineering Materials & Structures - Wiley Online Library
+
+
+The authors use various ML methods to create models to predict SIF in a object under polynomial stress fields. 0First, they ran FEM on the entire structure to find the maximum stress states. They assumed the crack would grow along the maximal principal stress plane. They then created a simple model with a crack in a plane using polynomial stress fields matching the larger model. The polynomial stress field as well as the dimensions of the plate and crack are used as inputs for training the ML models. They use ANN, random forest, gradient boosting regression tree, Gaussian process regression, and extremely randomized trees. Scikit-learn and Pytorch are used. 
+They used two methods to create a predictive model for the SIFs. The first was using the inputs to directly create an ML model, and the second was using the universal weight function which is a method for estimating SIFs with little computational requirements. Then the ML model is trained on the residual where the SIF is equal to the UWF + ML model. The models are trained on K/sqrt(2a/pi), so basically they are solving for sigma*F. They calculate K from J-Integral output by Abaqus 2020. Meshed using a circle of wedges. They use the Newman-Raju Equations to verify their FEM model. They used dimensionless geometrical parameters as inputs for the ML models.
+Their results show ERTs and ANNs to perform the best for interpolation. RF ERT and DT were best in general, relative offset of the cracks had the most effect on SIF. ANNs did best at extrapolating. Overall the hybrid approach did best. It worked better with the ANN than the other methods. They validated the results with two tests. In both tests the ANN model outperforms RN. ERT beats RN in one and loses in the other. The hybrid method is worse overall for the validation test. 
+
+
+Comparison of Various Surrogate Models to Predict Stress Intensity Factor of a Crack Propagating in Offshore Piping | J. Offshore Mech. Arct. Eng. | ASME Digital Collection
+
+Stress intensity factor prediction on offshore pipelines using surrogate modeling techniques - ScienceDirect
+
+Conservation Laws and Energy-Release Rates | J. Appl. Mech. | ASME Digital Collection
+
+Application of Parisâ€™ law for estimation of hydrogen-assisted fatigue crack growth | Elsevier Enhanced Reader
+
+Continuous fatigue crack length estimation for aluminum 6061-T6 plates with a notch | Elsevier Enhanced Reader
+
+doi:10.1016/j.jmps.2006.01.007 | Elsevier Enhanced Reader
+
+PII: S0142-1123(98)00058-9 | Elsevier Enhanced Reader
+
+
+Novel hybridized adaptive neuro‐fuzzy inference system models based particle swarm optimization and genetic algorithms for accurate prediction of stress intensity factor - Ben Seghier - 2020 - Fatigue &amp; Fracture of Engineering Materials &amp; Structures - Wiley Online Library
+
+Prediction of stress intensity factors in pavement cracking with neural networks based on semi-analytical FEA - ScienceDirect
+
+Comparison of butt tensile strength data with interface corner stress intensity factor prediction - ScienceDirect

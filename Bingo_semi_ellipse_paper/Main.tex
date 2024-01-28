@@ -1,0 +1,74 @@
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage[margin=1in]{geometry} 
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amssymb,amsfonts, fancyhdr, color, comment, graphicx, environ}
+%\usepackage[style=ieee, citestyle=numeric-comp, backend=biber]{biblatex}
+%\addbibresource{library.bib}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage{svg}
+\usepackage{verbatim}
+\usepackage[shortlabels]{enumitem}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage[T1]{fontenc}
+\renewcommand{\footrulewidth}{0.8pt}
+%\usepackage{subcaption}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{\textit{Keywords---}} #1
+}
+\author{}
+\date{}
+
+\journal{Engineering Fracture Mechanics}
+\begin{document} 
+\begin{frontmatter}
+
+	\begin{abstract}
+		\input{abstract}
+		
+	\end{abstract}
+	\begin{keyword}
+		Interpretable Machine learning \sep GPSR \sep semi-elliptical surface crack \sep mechanics based training	
+	\end{keyword}
+	
+\end{frontmatter}
+
+\section{Introduction}
+\input{Intro}
+\section{Methods}
+\input{Methods}
+\section{Numerical Experiments}
+\input{Numerical Experiments}
+\section{Results}
+\input{Results}
+\section{Discussion}
+\input{Discussion}
+\section{Conclusion}
+\input{Conclusion}
+
+
+\bibliographystyle{unsrt}
+\bibliography{library.bib}
+%\printbibliography
+\newpage
+
+%\input{figures}
+
+
+
+\end{document}
+
+
