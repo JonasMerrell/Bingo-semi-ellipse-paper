@@ -1,21 +1,23 @@
-
-After Bingo has been trained, it groups the best-performing equations into a Pareto front. In this graphical representation, the x-axis represents the complexity of each equation, while the y-axis signifies the fitness of each equation. Typically, models with lower complexity are more interpretable, but they may exhibit higher errors due to under-fitting. The Pareto front helps identify models that strike a balance between fitness and complexity.
-
-The final SIF model can be selected in two ways. The first method involves selecting the equations for $f_w$, $M$, and $g$ individually and then combining them into a single SIF model. The alternative approach is to calculate all possible combinations of the candidate $f_w$, $M$, and $g$ equations to create a new Pareto front for the SIF models. This newly formed Pareto front is then used to choose the final model. Both of these methods aim to minimize complexity while ensuring fitness is at least as good as the equations from \cite{RNeqnsbook}.
+Training Bingo on the functions $f_w$ and $M$ was relatively fast only requiring 1-2 days due to the small training data-set, which only contained one data point per model when $\phi = \pi/2$. Additionally, these functions only required the discovery of relationships between two variables, namely, $c/b$ and $a/t$ for $f_w$, and $a/c$ and $a/t$ for $M$. However, training the function $g$ presented a different challenge due to the substantial increase in the number of data points as this function is now trained on every value of $\phi$ in each model. The Bingo algorithm tends to slow down as more data points are added. This results in a data-set comprising 300-400 data points per model, in contrast to the single data point per model for $f_w$ and $M$. To expedite the training of the $g$ function, two strategies were employed. The first involved down-sampling the $\phi$ data to reduce it to only 20 data points per model. The second strategy made use of a Bingo feature called the fitness predictor island (FPI). FPI aims to identify the optimal subset of the data that best represents the entire data-set. The size of this subset is determined by a hyper-parameter that specifies the fraction the subset. Even with theses two methods of reducing the number of data-points Bingo still took 5-7 days to train the $g$ models that did not contain $c/b$ and up to 13 days for the models that did contain $c/b$.
 
 
-Multiple equations were chosen for both of the model selection methods. This was done to create multiple comparison points between GPSR and the Raju-Newman equations. To lower the number of equations presented for the individual selection process the same $f_w$ (eqn \ref{eqn:Bingo_fw_common} and $M$ (eqn \ref{eqn:Bingo_M_common}) equations are used for all four models with only the $g$ equation changing.  
+Upon training completion, the GPSR population of models varies in accuracy and complexity, The Pareto front of theses models is defined b y the best fit model at each complexity level. Ultimately, the, models are selected by the user from the Pareto front. From the approach outlined in the previous section a Pareto front the model is produced for $f_w$, $M$, and $g$. Two methods were used to define the SIF model from the separate Pareto fronts for $f_w$ , $M$, and $g$. The first method to select a single model for $f_w$, $M$, and $g$ independently  and then combining them into a model for SINMF. The second method is to define another Pareto front for SIF using all pssible combinations fo $f_w$, $M$, and $g$. This Pareto front can then be used to select the SIF model. 
+
+Four SIF models were chosen using each of the model selection methods. This is done to create various comparisons between GPSR and Raju-Newman models \cite{RNeqnsbook}. To lower the number of models presented the same $f_w$, Eq. \ref{eqn:Bingo_fw_common}, and $M$, Eq. \ref{eqn:Bingo_M_common}, models are used for all four SIF models with only the g model changing.   
 
 \begin{equation} \label{eqn:Bingo_fw_common}
-    f_w = \sqrt{\frac{\sqrt{\frac{a}{t} + \cos\left(\frac{a}{t}\right)}}{\cos\left(\frac{c}{b}\right)}}
+    f_w = \frac{\left(\frac{a}{t} + \cos\left(\frac{a}{t}\right)\right)^{\frac{1}{4}}}{\left(\cos\left(\frac{c}{b}\right)\right)^{\frac{1}{2}}}
 \end{equation}
 
 \begin{equation} \label{eqn:Bingo_M_common}
     M = 1 + 0.06\left(\frac{a}{t}\right)^2\left(\frac{a}{c} - 1 \right) + \left(1 - \frac{c}{a} \right) \left(0.0069 \frac{c}{a} - 0.28 \frac{a}{t} \right)
 \end{equation}
 
+The four models for $g$ are given by Eqns \ref{eqn:Bingo_g_matching_error}-\ref{eqn:Bingo_g_balance}. These four models were selected to make specific comparisons to the Raju-Newman equations \cite{RNeqnsbook}. Eqn \ref{eqn:Bingo_g_matching_error} was selected to have similar error to the Raju-Newman equation, and Eqn \ref{eqn:Bingo_g_matching_complexity} was selected to have similar complexity to the Raju-Newman equations.
 
-Using equation \ref{eqn:Bingo_g_matching_error} for $g$ creates a model for $K$ that has similar error to the Raju-Newman equation. Equation \ref{eqn:Bingo_g_matching_complexity} results in an a model with the same overall complexity as the Raju-Newman equation. 
+
+
+results in an a model with the same overall complexity as the Raju-Newman equation. 
 The first model uses the data where $g$ was trained at $\frac{c}{b} = 0$ and 
 
 Many Bingo runs were done with different parameters. The candidate equations can be selected from the combined Pareto front of all the bingo runs. 
@@ -43,7 +45,8 @@ the equations $f_w$ and $M$ have a smaller effect on the value of $KI$ than $g$,
     g = 1 + \frac{0.4 \frac{a}{c}\left(1 - \sin\left(\phi\right) ^ \frac{a}{t} \right)}{\left( \frac{a}{c} \right) ^ 2 - \frac{a}{t} + 1}
 \end{equation}
 
-Figure \ref{fig:perato_front} shows the Pareto fronts for all 3 equations. The distributions of the errors for each of the four models along with with Raju-Newman equation are shown in figure \ref{fig:error_plots}. The parity plots for each model is also shown in figure \ref{fig:error_plots}.
+Figure \ref{fig:perato_front} shows the Pareto fronts for $f_w$, $M$, and $g$. The x-axis for each Pareto front is the complexity of each model and the y-axis is mean relative error. Fig \ref{fig:error_plots}a shows the histograms of errors for each of the three selected $g$ Egns \ref{eqn:Bingo_g_matching_error}-\ref{eqn:Bingo_g_balance} as well as the Raju-Newman equation. The x-axis is the mean relative error and the y-axis is the density. Fig \ref{fig:error_plots}b
+ The distributions of the errors for each of the four models along with with Raju-Newman equation are shown in figure \ref{fig:error_plots}. The parity plots for each model is also shown in figure \ref{fig:error_plots}.
 \begin{figure}%
     \centering
     \subfloat[\centering Distributions of error]{{\includegraphics[width=0.45\textwidth]{Figures_pdf/kde.pdf} }}%

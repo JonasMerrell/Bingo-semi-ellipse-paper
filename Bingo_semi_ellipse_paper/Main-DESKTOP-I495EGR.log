@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.29)  31 JAN 2024 06:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.28)  11 FEB 2024 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Main.tex
 (Main.tex
-LaTeX2e <2023-11-01> patch level 1
+LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
 
 (C:\Users\legoj\AppData\Local\Programs\MiKTeX\tex/latex/elsarticle\elsarticle.c
@@ -860,6 +860,13 @@ Package pdftex.def Info: geometry_figures/f3d_crack.png  used on input line 11.
 (pdftex.def)             Requested size: 375.80544pt x 260.87523pt.
 [5 <./geometry_figures/f3d_crack.png>]
 
+Package natbib Warning: Citation `Karl' on page 6 undefined on input line 33.
+
+
+Package natbib Warning: Citation `Hongsup' on page 6 undefined on input line 33
+.
+
+
 Package caption Warning: \label without proper reference on input line 38.
 See the caption package documentation for explanation.
 
@@ -908,199 +915,223 @@ Package pdftex.def Info: Figures/dummy_pareto_front.png  used on input line 69.
 
 (pdftex.def)             Requested size: 281.85587pt x 211.39981pt.
 ) (Numerical Experiments.tex
-<geometry_figures/BCs.png, id=206, 423.5022pt x 444.7014pt>
+<geometry_figures/BCs.png, id=209, 423.5022pt x 444.7014pt>
 File: geometry_figures/BCs.png Graphic file (type png)
 <use geometry_figures/BCs.png>
-Package pdftex.def Info: geometry_figures/BCs.png  used on input line 10.
+Package pdftex.def Info: geometry_figures/BCs.png  used on input line 11.
 (pdftex.def)             Requested size: 281.85587pt x 295.96022pt.
-<geometry_figures/Geom.png, id=207, 570.2103pt x 1170.2922pt>
+<geometry_figures/Geom.png, id=210, 570.2103pt x 1170.2922pt>
 File: geometry_figures/Geom.png Graphic file (type png)
 <use geometry_figures/Geom.png>
-Package pdftex.def Info: geometry_figures/Geom.png  used on input line 12.
+Package pdftex.def Info: geometry_figures/Geom.png  used on input line 13.
 (pdftex.def)             Requested size: 140.92793pt x 289.23303pt.
-<Figures/h_convergence.png, id=212, 433.62pt x 289.08pt>
+<Figures/h_convergence.png, id=211, 433.62pt x 289.08pt>
 File: Figures/h_convergence.png Graphic file (type png)
 <use Figures/h_convergence.png>
-Package pdftex.def Info: Figures/h_convergence.png  used on input line 21.
+Package pdftex.def Info: Figures/h_convergence.png  used on input line 22.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
-<Figures/cb_convergence.png, id=213, 433.62pt x 289.08pt>
+<Figures/cb_convergence.png, id=212, 433.62pt x 289.08pt>
 File: Figures/cb_convergence.png Graphic file (type png)
 <use Figures/cb_convergence.png>
-Package pdftex.def Info: Figures/cb_convergence.png  used on input line 23.
+Package pdftex.def Info: Figures/cb_convergence.png  used on input line 24.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 28.
+               Default added (so using `tbp') on input line 29.
 
 
-LaTeX Warning: Reference `fig:f3d_crack' on page 8 undefined on input line 43.
+LaTeX Warning: Reference `fig:f3d_crack' on page 8 undefined on input line 44.
 
 
-Package caption Warning: \label without proper reference on input line 48.
+Package caption Warning: \label without proper reference on input line 49.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:crack_mesh_convergence' on page 8 undefined on in
-put line 43.
+put line 44.
 
 [8 <./Figures/dummy_pareto_front.png>] [9 <./geometry_figures/BCs.png> <./geome
 try_figures/Geom.png> <./Figures/h_convergence.png> <./Figures/cb_convergence.p
 ng>]
-<Figures_pdf/numerical_noise.pdf, id=235, 427.59602pt x 174.23235pt>
+<Figures_pdf/numerical_noise.pdf, id=234, 427.59602pt x 174.23235pt>
 File: Figures_pdf/numerical_noise.pdf Graphic file (type pdf)
 <use Figures_pdf/numerical_noise.pdf>
-Package pdftex.def Info: Figures_pdf/numerical_noise.pdf  used on input line 47
+Package pdftex.def Info: Figures_pdf/numerical_noise.pdf  used on input line 48
 .
 (pdftex.def)             Requested size: 469.75502pt x 191.40892pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 55.
+               Default added (so using `tbp') on input line 56.
 
 
-Package caption Warning: \label without proper reference on input line 79.
+Package caption Warning: \label without proper reference on input line 80.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:selected_sifs' on page 10 undefined on input line
- 74.
+ 75.
 
-<Figures_pdf/K_data.pdf, id=239, 1016.04532pt x 587.65495pt>
+<Figures_pdf/K_data.pdf, id=238, 1016.04532pt x 587.65495pt>
 File: Figures_pdf/K_data.pdf Graphic file (type pdf)
 <use Figures_pdf/K_data.pdf>
-Package pdftex.def Info: Figures_pdf/K_data.pdf  used on input line 78.
+Package pdftex.def Info: Figures_pdf/K_data.pdf  used on input line 79.
 (pdftex.def)             Requested size: 469.75502pt x 271.69649pt.
 [10 <./Figures_pdf/numerical_noise.pdf>] [11 <./Figures_pdf/K_data.pdf>]
 
-Package caption Warning: \label without proper reference on input line 105.
+LaTeX Warning: Reference `eqn:RN_M1 - eqn:RN_g' on page 12 undefined on input l
+ine 101.
+
+
+Package caption Warning: \label without proper reference on input line 108.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:fw_convergence' on page 12 undefined on input lin
-e 100.
+e 103.
 
-<Figures_pdf/fw_convergence.pdf, id=298, 406.37096pt x 315.27179pt>
+<Figures_pdf/fw_convergence.pdf, id=296, 406.37096pt x 315.27179pt>
 File: Figures_pdf/fw_convergence.pdf Graphic file (type pdf)
 <use Figures_pdf/fw_convergence.pdf>
-Package pdftex.def Info: Figures_pdf/fw_convergence.pdf  used on input line 104
+Package pdftex.def Info: Figures_pdf/fw_convergence.pdf  used on input line 107
 .
 (pdftex.def)             Requested size: 469.75502pt x 364.46956pt.
 [12] [13 <./Figures_pdf/fw_convergence.pdf>]
 
-Package caption Warning: \label without proper reference on input line 151.
+LaTeX Warning: Reference `eqn:K_embedded_ellipse, eqn:fw_parameter_def, eqn:M_p
+arameter_def' on page 14 undefined on input line 139.
+
+
+LaTeX Warning: Reference `eqn:fw_parameter_def, eqn:M_parameter_def, eqn:g_para
+meter_def' on page 14 undefined on input line 151.
+
+
+Package caption Warning: \label without proper reference on input line 156.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:training_models_3d' on page 14 undefined on input
- line 146.
+ line 151.
 
-[14]
-<Figures_pdf/training_slices.pdf, id=359, 295.66338pt x 288.7794pt>
+<Figures_pdf/training_slices.pdf, id=343, 295.66338pt x 288.7794pt>
 File: Figures_pdf/training_slices.pdf Graphic file (type pdf)
 <use Figures_pdf/training_slices.pdf>
 Package pdftex.def Info: Figures_pdf/training_slices.pdf  used on input line 15
-0.
+5.
 (pdftex.def)             Requested size: 469.75502pt x 458.82658pt.
 
+Package natbib Warning: Citation `Hongsup' on page 14 undefined on input line 1
+61.
 
-Package caption Warning: \label without proper reference on input line 167.
+
+Package natbib Warning: Citation `Karl' on page 14 undefined on input line 161.
+
+
+[14] [15 <./Figures_pdf/training_slices.pdf>]
+
+Package natbib Warning: Citation `donovan' on page 16 undefined on input line 1
+65.
+
+
+Package caption Warning: \label without proper reference on input line 172.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:training_flow' on page 15 undefined on input line
- 162.
+LaTeX Warning: Reference `fig:training_flow' on page 16 undefined on input line
+ 167.
 
-[15] [16 <./Figures_pdf/training_slices.pdf>]
-<geometry_figures/training_flow.png, id=382, 557.4426pt x 526.1256pt>
+<geometry_figures/training_flow.png, id=370, 557.4426pt x 526.1256pt>
 File: geometry_figures/training_flow.png Graphic file (type png)
 <use geometry_figures/training_flow.png>
 Package pdftex.def Info: geometry_figures/training_flow.png  used on input line
- 166.
+ 171.
 (pdftex.def)             Requested size: 469.75502pt x 443.36345pt.
-) (Results.tex [17] [18 <./geometry_figures/training_flow.png>]
+) (Results.tex [16] [17 <./geometry_figures/training_flow.png>] [18]
 
-Package caption Warning: \label without proper reference on input line 59.
+Package caption Warning: \label without proper reference on input line 58.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:perato_front' on page 19 undefined on input line 
-46.
+45.
 
-<Figures_pdf/kde.pdf, id=411, 416.8153pt x 313.93843pt>
+<Figures_pdf/kde.pdf, id=403, 416.8153pt x 313.93843pt>
 File: Figures_pdf/kde.pdf Graphic file (type pdf)
 <use Figures_pdf/kde.pdf>
-Package pdftex.def Info: Figures_pdf/kde.pdf  used on input line 49.
+Package pdftex.def Info: Figures_pdf/kde.pdf  used on input line 48.
 (pdftex.def)             Requested size: 211.38832pt x 159.2107pt.
-<Figures/parity_plot.png, id=412, 462.528pt x 346.896pt>
+<Figures/parity_plot.png, id=404, 462.528pt x 346.896pt>
 File: Figures/parity_plot.png Graphic file (type png)
 <use Figures/parity_plot.png>
-Package pdftex.def Info: Figures/parity_plot.png  used on input line 51.
+Package pdftex.def Info: Figures/parity_plot.png  used on input line 50.
 (pdftex.def)             Requested size: 211.38832pt x 158.54192pt.
-<Figures_pdf/Pareto_fronts.pdf, id=413, 426.98563pt x 352.22006pt>
+<Figures_pdf/Pareto_fronts.pdf, id=405, 426.98563pt x 352.22006pt>
 File: Figures_pdf/Pareto_fronts.pdf Graphic file (type pdf)
 <use Figures_pdf/Pareto_fronts.pdf>
-Package pdftex.def Info: Figures_pdf/Pareto_fronts.pdf  used on input line 58.
+Package pdftex.def Info: Figures_pdf/Pareto_fronts.pdf  used on input line 57.
 (pdftex.def)             Requested size: 469.75502pt x 387.51314pt.
-<Figures_pdf/kde_combo.pdf, id=414, 422.69022pt x 313.93843pt>
+<Figures_pdf/kde_combo.pdf, id=406, 422.69022pt x 313.93843pt>
 File: Figures_pdf/kde_combo.pdf Graphic file (type pdf)
 <use Figures_pdf/kde_combo.pdf>
-Package pdftex.def Info: Figures_pdf/kde_combo.pdf  used on input line 65.
+Package pdftex.def Info: Figures_pdf/kde_combo.pdf  used on input line 64.
 (pdftex.def)             Requested size: 211.38832pt x 156.99757pt.
-<Figures/parity_plot_everything.png, id=415, 462.528pt x 346.896pt>
+<Figures/parity_plot_everything.png, id=407, 462.528pt x 346.896pt>
 File: Figures/parity_plot_everything.png Graphic file (type png)
 <use Figures/parity_plot_everything.png>
 Package pdftex.def Info: Figures/parity_plot_everything.png  used on input line
- 67.
+ 66.
 (pdftex.def)             Requested size: 211.38832pt x 158.54192pt.
 
-Package caption Warning: \label without proper reference on input line 109.
+Package caption Warning: \label without proper reference on input line 108.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:perato_front_everything' on page 19 undefined on 
-input line 73.
+input line 72.
 
 
-Overfull \hbox (26.83939pt too wide) detected at line 93
+Overfull \hbox (26.83939pt too wide) detected at line 92
+[][][][]
+ []
+
+
+Overfull \hbox (154.86305pt too wide) detected at line 102
 [][][][]
  []
 
 [19 <./Figures_pdf/kde.pdf> <./Figures/parity_plot.png>] [20 <./Figures_pdf/Par
 eto_fronts.pdf>]
-Overfull \hbox (154.86305pt too wide) detected at line 103
-[][][][]
- []
-
-<Figures_pdf/Pareto_fronts_combo.pdf, id=467, 427.25963pt x 318.10506pt>
+<Figures_pdf/Pareto_fronts_combo.pdf, id=462, 427.25963pt x 318.10506pt>
 File: Figures_pdf/Pareto_fronts_combo.pdf Graphic file (type pdf)
 <use Figures_pdf/Pareto_fronts_combo.pdf>
 Package pdftex.def Info: Figures_pdf/Pareto_fronts_combo.pdf  used on input lin
-e 108.
+e 107.
 (pdftex.def)             Requested size: 469.75502pt x 349.74675pt.
 
-Package caption Warning: \label without proper reference on input line 109.
+
+Package caption Warning: \label without proper reference on input line 108.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:perato_front_everything' on page 21 undefined on 
-input line 114.
+input line 113.
 
-<Figures_pdf/Pareto_fronts_everything.pdf, id=469, 432.86053pt x 291.95056pt>
+<Figures_pdf/Pareto_fronts_everything.pdf, id=464, 432.86053pt x 291.95056pt>
 File: Figures_pdf/Pareto_fronts_everything.pdf Graphic file (type pdf)
 <use Figures_pdf/Pareto_fronts_everything.pdf>
 Package pdftex.def Info: Figures_pdf/Pareto_fronts_everything.pdf  used on inpu
-t line 118.
+t line 117.
 (pdftex.def)             Requested size: 469.75502pt x 316.84326pt.
-<Figures_pdf/K_data_with_bingo.pdf, id=470, 1016.04532pt x 587.65495pt>
+<Figures_pdf/K_data_with_bingo.pdf, id=465, 1016.04532pt x 587.65495pt>
 File: Figures_pdf/K_data_with_bingo.pdf Graphic file (type pdf)
 <use Figures_pdf/K_data_with_bingo.pdf>
 Package pdftex.def Info: Figures_pdf/K_data_with_bingo.pdf  used on input line 
-125.
+124.
 (pdftex.def)             Requested size: 469.75502pt x 271.69649pt.
 ) (Discussion.tex
 
-Package caption Warning: \label without proper reference on input line 59.
+Package caption Warning: \label without proper reference on input line 58.
 See the caption package documentation for explanation.
 
 
@@ -1108,7 +1139,7 @@ LaTeX Warning: Reference `fig:perato_front' on page 21 undefined on input line
 8.
 
 
-Package caption Warning: \label without proper reference on input line 109.
+Package caption Warning: \label without proper reference on input line 108.
 See the caption package documentation for explanation.
 
 
@@ -1119,26 +1150,25 @@ input line 8.
 LaTeX Warning: Reference `fig:perato_front_everything_ant_more' on page 21 unde
 fined on input line 8.
 
-[21 <./Figures_pdf/kde_combo.pdf> <./Figures/parity_plot_everything.png>]
-[22 <./Figures_pdf/Pareto_fronts_combo.pdf>] [23 <./Figures_pdf/Pareto_fronts_e
-verything.pdf>]
 
-Package caption Warning: \label without proper reference on input line 109.
+Package caption Warning: \label without proper reference on input line 108.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:perato_front_everything' on page 24 undefined on 
+LaTeX Warning: Reference `fig:perato_front_everything' on page 21 undefined on 
 input line 10.
 
 
-Package caption Warning: \label without proper reference on input line 59.
+Package caption Warning: \label without proper reference on input line 58.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:perato_front' on page 24 undefined on input line 
+LaTeX Warning: Reference `fig:perato_front' on page 21 undefined on input line 
 10.
 
-[24 <./Figures_pdf/K_data_with_bingo.pdf>]
+[21 <./Figures_pdf/kde_combo.pdf> <./Figures/parity_plot_everything.png>]
+[22 <./Figures_pdf/Pareto_fronts_combo.pdf>] [23 <./Figures_pdf/Pareto_fronts_e
+verything.pdf>] [24 <./Figures_pdf/K_data_with_bingo.pdf>]
 
 Package natbib Warning: Citation `Tushar' on page 25 undefined on input line 23
 .
@@ -1167,7 +1197,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:bingo_ml_comp' on page 25 undefined on input line
  23.
 
-<Figures_pdf/bingo_ml_comp.pdf, id=563, 505.12454pt x 386.21594pt>
+<Figures_pdf/bingo_ml_comp.pdf, id=555, 505.12454pt x 386.21594pt>
 File: Figures_pdf/bingo_ml_comp.pdf Graphic file (type pdf)
 <use Figures_pdf/bingo_ml_comp.pdf>
 Package pdftex.def Info: Figures_pdf/bingo_ml_comp.pdf  used on input line 26.
@@ -1179,7 +1209,7 @@ Package natbib Warning: There were undefined citations.
 
 (Main.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
+LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
 
@@ -1190,13 +1220,13 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 76E9EED319FC72FEB615691F728CF82C;2143.
  ) 
 Here is how much of TeX's memory you used:
- 17292 strings out of 474486
- 298578 string characters out of 5743755
- 1947542 words of memory out of 5000000
- 39123 multiletter control sequences out of 15000+600000
+ 17295 strings out of 474486
+ 298731 string characters out of 5743755
+ 1946528 words of memory out of 5000000
+ 39126 multiletter control sequences out of 15000+600000
  571918 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,12n,93p,1738b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,93p,1592b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\legoj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 1000.pk> <C:\Users\legoj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecti1000.pk> <C:\Users\legoj\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1223,9 +1253,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
 10.pfb><C:/Users/legoj/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb><C:/Users/legoj/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb>
-Output written on Main.pdf (28 pages, 2366578 bytes).
+Output written on Main.pdf (28 pages, 2365303 bytes).
 PDF statistics:
- 952 PDF objects out of 1000 (max. 8388607)
+ 945 PDF objects out of 1000 (max. 8388607)
  121 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

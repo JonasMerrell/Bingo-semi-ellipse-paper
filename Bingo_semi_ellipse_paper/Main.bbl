@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{RNeqnsbook}
+J.~C. Newman and I.~S. Raju.
+\newblock {\em Stress-intensity factor equations for cracks in
+  three-dimensional finite bodies}, volume~4.
+\newblock 1983.
+
 \bibitem{Wang1995}
 X~Wang and S~B Lambert.
 \newblock Local weight functions for semi-elliptical surface cracks in finite
@@ -47,12 +53,6 @@ Mohamed El Amine~Ben Seghier, Hermes Carvalho, Behrooz Keshtegar, José~A.F.O.
   stress intensity factor.
 \newblock {\em Fatigue and Fracture of Engineering Materials and Structures},
   43:2653--2667, 11 2020.
-
-\bibitem{RNeqnsbook}
-J.~C. Newman and I.~S. Raju.
-\newblock {\em Stress-intensity factor equations for cracks in
-  three-dimensional finite bodies}, volume~4.
-\newblock 1983.
 
 \bibitem{Randall2022}
 David~L. Randall, Tyler~S. Townsend, Jacob~D. Hochhalter, and Geoffrey~F.

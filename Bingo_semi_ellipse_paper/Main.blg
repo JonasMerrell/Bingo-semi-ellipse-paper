@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Main.aux
 Case mismatch error between cite keys tushar and Tushar
----line 151 of file Main.aux
+---line 269 of file Main.aux
  : \citation{tushar
  :                 }
 I'm skipping whatever remains of this command
@@ -11,23 +11,23 @@ The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 Database file #1: library.bib
 Warning--entry type for "Wang1995" isn't style-file defined
---line 18 of file library.bib
+--line 35 of file library.bib
 Warning--entry type for "Pommier1999" isn't style-file defined
---line 183 of file library.bib
+--line 365 of file library.bib
 Warning--entry type for "RNFEM" isn't style-file defined
---line 668 of file library.bib
+--line 1335 of file library.bib
 Warning--entry type for "Rice1968" isn't style-file defined
---line 748 of file library.bib
+--line 1495 of file library.bib
 Warning--entry type for "nasgro" isn't style-file defined
---line 797 of file library.bib
+--line 1593 of file library.bib
 Warning--entry type for "afgrow" isn't style-file defined
---line 804 of file library.bib
+--line 1607 of file library.bib
 Warning--entry type for "smartdt" isn't style-file defined
---line 811 of file library.bib
+--line 1621 of file library.bib
 Warning--entry type for "abaqus" isn't style-file defined
---line 818 of file library.bib
+--line 1635 of file library.bib
 Warning--entry type for "f3d" isn't style-file defined
---line 827 of file library.bib
+--line 1653 of file library.bib
 Warning--I didn't find a database entry for "Tushar"
 Warning--empty publisher in RNeqnsbook
 Warning--empty booktitle in Randall2022
